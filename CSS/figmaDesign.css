@@ -1,0 +1,119 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+.containerSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  width: 341px;
+  height: 18px;
+  align-items: center;
+  color: #007f61;
+}
+.divOne-a {
+  width: 90px;
+  border: 0.9px solid #c8c8c8;
+}
+
+.firstBox {
+  margin-top: 10px;
+  width: 341px;
+  border: 0.9px solid #c8c8c8;
+  min-height: 74.11px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-radius: 3.62px;
+}
+.firstBox:hover {
+  background-color: #f4fbf9;
+  border-color: #007f61;
+}
+
+.firstBoxInnerDive-a {
+  display: flex;
+
+  gap: 15px;
+  margin-left: 20px;
+}
+
+.firstBoxInnerDive-a2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.firstBoxInnerDive-a2 strong small {
+  font-size: 8px;
+  color: gray;
+  text-decoration-line: line-through;
+  padding-left: 30px;
+}
+
+.firstBox .firstBoxInnerDive-a .firstBoxInnerDive-a1 input[type="radio"] {
+  accent-color: #007f61;
+  margin-top: 15px;
+}
+
+.firstBoxInnerDive-b {
+  margin-right: 20px;
+}
+
+.firstBoxInnerDive-middle {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.firstlastBox {
+  width: 341px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 3.62px;
+  width: 341px;
+  height: 48px;
+  background-color: #007f61;
+  color: #fff;
+  margin-top: 10px;
+  border: none;
+}
+
+.selectButton {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 20px;
+}
+
+.selectTag select {
+  appearance: none;
+  padding-left: 2px;
+}
+.selectTag {
+  position: relative;
+}
+
+.selectTag::after {
+  content: "\25b4";
+  position: absolute;
+
+  right: 5px;
+  transform: rotate(180deg);
+}
